@@ -80,12 +80,14 @@ h2 {
   font-weight: 400;
   letter-spacing: 2px;
 }
+.footer{
+    margin-top: 5%;
+}
 
 .social {
   display: flex;
   max-width: 400px;
   margin: 0 auto;
-margin-top: 5%;
 }
 
 .social a {
