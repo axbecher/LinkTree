@@ -1,0 +1,160 @@
+body {
+  /*background-image: url("https://i.ibb.co/M6nc9r1/geometries.jpg");*/
+background-image: url(images/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  min-height: 100vh;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.aboutMe{
+    color: #f7dde6;
+    font-family: "Lato",Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.6em;
+    letter-spacing: 4px;
+}
+
+.detailsMe{
+    color: #008ddb;
+    font-size: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    line-height: 1.2em;
+    font-weight: 300;
+    text-transform: none;
+  
+}
+
+.logo {
+    display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 3%;
+max-width: 270px;
+min-width: 120px;
+}
+
+a.featured:hover {
+  background-color: #6d2aff;
+  border: 2px solid #ff9030;
+  color: #fff;
+}
+
+a:hover {
+  background-color: #3ce39c;
+  color: #fff;
+}
+
+a {
+  display: block;
+  max-width: 400px;
+  margin: 0 auto 15px;
+  padding: 15px 20px;
+  font-size: 15px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+a.featured {
+  position: relative;
+  background-color: #7c41ff;
+  border: 2px solid #ffa04c;
+  color: #fff;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.social {
+  display: flex;
+  max-width: 400px;
+  margin: 0 auto;
+margin-top: 5%;
+}
+
+.social a {
+  flex: 1;
+  padding: 10px 10px;
+  margin-right: 10px;
+    background-color: none;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.viewhere:hover {
+  background-color: darkorange; 
+}
+
+.skillsdistrict:hover {
+  background-color: darkorange; 
+}
+
+/* Last link margin = 0 */
+
+.social a:last-child {
+  margin-right: 0;
+}
+
+.youtube:hover {
+  background-color: #ff0000;
+  /*border-color: brown; */
+}
+
+.facebook:hover {
+  background-color: #3b5998;
+}
+
+.linkedin:hover {
+  background-color: #0274b3; 
+}
+
+.github:hover {
+  background-color: #696969;
+  
+}
+
+.artstation:hover {
+  background-color: #0099e5;
+  
+}
+
+@media only screen and (max-width: 1025px){
+    
+    .aboutMe{
+    color: #f7dde6;
+    font-family: "Lato",Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.6em;
+    letter-spacing: 4px;
+}
+
+.detailsMe{
+    color: #008ddb;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 1.2em;
+    font-weight: 300;
+    text-transform: none;
+  padding: 15px 20px;
+}
+    
+}
