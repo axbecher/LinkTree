@@ -13,6 +13,15 @@ img {
     border-radius: 50%;
 }
 
+tg .td{
+    padding:30px;
+    border-collapse: collapse;
+}
+tg .tr{
+    padding:30px;
+    border-collapse: collapse;
+}
+
 .aboutMe{
     color: #f7dde6;
     font-family: "Lato",Sans-serif;
@@ -80,8 +89,13 @@ h2 {
   font-weight: 400;
   letter-spacing: 2px;
 }
+
 .footer{
-    margin-top: 5%;
+    padding: 15px 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3{
+    min-width: 250px;
+    margin-bottom: 10px;
 }
 
 .social {
@@ -107,6 +121,33 @@ h2 {
   background-color: darkorange; 
 }
 
+/* COLLAPSE MENU */
+
+.collapsible {
+  background-color: rgba(61, 59, 60, 1);
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  margin: 0 auto 15px;
+  padding: 15px 20px;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #fff;
+  color: #3D3B3C;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: rgba(62, 60, 61, 0.45);
+}
+
 /* Last link margin = 0 */
 
 .social a:last-child {
@@ -127,13 +168,14 @@ h2 {
 }
 
 .github:hover {
-  background-color: #696969;
-  
+  background-color: #696969; 
 }
 
 .artstation:hover {
   background-color: #0099e5;
-  
+}
+.twitter:hover{
+    background-color: #1DA1F2;
 }
 
 @media only screen and (max-width: 1025px){
