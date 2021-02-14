@@ -113,12 +113,20 @@ h2 {
   border: 2px solid #fff;
 }
 
+/* PERSONAL PROJECTS*/
+
+.axellshub:hover{
+    background-color: #CB4D4D;
+}
+
+/* VOLUNTEER PROJECTS*/
+
 .viewhere:hover {
-  background-color: darkorange; 
+  background-color: #E8BB48; 
 }
 
 .skillsdistrict:hover {
-  background-color: darkorange; 
+  background-color: #EA5823; 
 }
 
 /* COLLAPSE MENU */
