@@ -186,7 +186,7 @@ h2 {
     background-color: #1DA1F2;
 }
 
-@media only screen and (max-width: 1025px){
+@media only screen and (max-width: 720px){
     
     .aboutMe{
     color: #f7dde6;
@@ -208,5 +208,10 @@ h2 {
     text-transform: none;
   padding: 15px 20px;
 }
+    
+.clipUnity1{
+  width: 396;
+  height: 290;
+    }
     
 }
